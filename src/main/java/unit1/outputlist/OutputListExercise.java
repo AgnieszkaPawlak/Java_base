@@ -1,4 +1,4 @@
-package exercise1.outputlist;
+package unit1.outputlist;
 
 public class OutputListExercise {
     public static void main(String[] args) {
