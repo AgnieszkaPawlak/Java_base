@@ -1,5 +1,8 @@
 package org.example;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         double number1 = 2;
@@ -16,8 +19,9 @@ public class Main {
         NumericPromotion numericPromotion = new NumericPromotion();
         numericPromotion.convertTypeOfResult();
 
-        CheckLastColor checkLastColor = new CheckLastColor();
-        checkLastColor.printColors();
+        List list = new ArrayList<>(List.of("green", "blue","pink"));
+        PrintLastColor printLastColor = new PrintLastColor();
+        printLastColor.printLastColor(2,  list);
 
 
     }
