@@ -23,6 +23,8 @@ public class Main {
         PrintLastColor printLastColor = new PrintLastColor();
         printLastColor.printLastColor(2,  list);
 
+        DivideNumberByConditions divideNumberByConditions = new DivideNumberByConditions();
+        divideNumberByConditions.checkNumber(2,2,1);
 
     }
 }
