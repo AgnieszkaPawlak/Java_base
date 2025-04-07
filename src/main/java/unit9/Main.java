@@ -8,7 +8,6 @@ public class Main {
         LeapYearChecker leapYearChecker1 = new LeapYearChecker(-1);
 
         boolean isLeapYear = (leapYearChecker1.getYear() % 4 == 0 && leapYearChecker1.getYear() % 100 != 0) || leapYearChecker1.getYear() % 400 == 0 ? true : false;
-
         System.out.println("Is leap year? -> " + isLeapYear);
     }
 }
